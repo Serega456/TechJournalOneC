@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://v8.1c.ru/v8/tech-log">
+	<dump create="false"/>
+	<log location="D:\1cTechLogs\Error" history="24">
+        <event>
+            <eq property="Name" value="EXCP"/>
+        </event>
+		<event>
+			<eq property="name" value="EXCPCNTX"/>
+		</event>
+        <event>
+            <eq property="Name" value="PROC"/>
+        </event>
+        <event>
+            <eq property="Name" value="ADMIN"/>
+        </event>
+        <event>
+            <eq property="name" value="ATTN"/>
+        </event>
+        <event>
+            <eq property="Name" value="QERR"/>
+        </event>
+		<event>
+			<eq property="name" value="SCOM"/>
+		</event>
+		<event>
+			<eq property="name" value="CONN"/>
+		</event>
+        <property name="all"/>
+	</log>
+</config>

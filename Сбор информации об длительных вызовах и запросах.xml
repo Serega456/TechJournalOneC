@@ -3,15 +3,15 @@
 	<log location="D:\1cTechLogs\Call_SDBL_DBMSSQL" history="24">
         <event>
             <eq property="Name" value="CALL"/>
-			      <gt property="Durationus" value="1000000"/>
+	    <gt property="Durationus" value="1000000"/>
         </event>
         <event>
             <eq property="Name" value="DBMSSQL"/>
-			      <gt property="Durationus" value="1000000"/>
+	     <gt property="Durationus" value="1000000"/>
         </event>
         <event>
             <eq property="Name" value="SDBL"/>
-			      <gt property="Durationus" value="1000000"/>
+	     <gt property="Durationus" value="1000000"/>
         </event>
 	<property name="all"/>
 	</log> 

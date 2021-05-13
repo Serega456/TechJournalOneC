@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://v8.1c.ru/v8/tech-log">    
+	<system level="Debug" class="AccntDBStru"/>
+    <system level="Debug" class="BackEndDBStru"/>
+    <system level="Debug" class="MDAnalyser"/>
+    <system level="Debug" class="DBFileStoreStru"/>
+    <system level="Debug" class="DBStruManager"/>
+    <system level="Debug" class="ExtensionsDBStru"/>
+    <system level="Debug" class="FtextDBStru"/>
+    <system level="Debug" class="IBVersionStru"/>
+    <system level="Debug" class="SystemSettingsStorageDBStru"/>
+    <system level="Debug" class="UsersDBStru"/>
+    <system level="Debug" class="BasicDBStru"/>
+    <system level="Debug" class="BPDBStru"/>
+    <system level="Debug" class="CalcDBStru"/>
+    <system level="Debug" class="HistoryStorageDBStru"/>
+    <system level="Debug" class="EDBConnectionParametersDBStru"/>
+    <system level="Debug" class="ODataDBStru"/>
+    <log location="D:\1cTechLogs\Restructuring" history="8">
+        <event>
+            <eq property="EventType" value="Workflow"/>
+        </event>
+        <event>
+            <eq property="EventType" value="Analysis"/>
+        </event>
+        <event>
+            <eq property="EventType" value="Restructuring"/>
+        </event>
+        <property name="all"/>
+    </log>
+</config>

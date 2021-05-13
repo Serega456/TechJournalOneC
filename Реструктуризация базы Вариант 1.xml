@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://v8.1c.ru/v8/tech-log">
     <system level="trace"/>
-    <log history="48">
+    <log location="D:\1cTechLogs\Restructuring" history="8">
          <property name="all"/>
          <event>
             <eq property="EventType" value="Workflow"/>

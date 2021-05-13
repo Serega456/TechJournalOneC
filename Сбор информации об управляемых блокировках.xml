@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://v8.1c.ru/v8/tech-log">
+	<log location="D:\1cTechLogs\tlocks" history="24">
+		<event>
+			<eq property="Name" value="TLOCK"/>
+		</event>
+		<property name="all"/>
+	</log>
+	<log location="D:\1cTechLogs\deadlocks" history="24">
+		<event>
+			<eq property="Name" value="TLOCK"/>
+			<ne property="WaitConnections" value=""/>
+		</event>
+		<event>
+			<eq property="Name" value="TTIMEOUT"/>
+		</event>
+		<event>
+			<eq property="Name" value="TDEADLOCK"/>
+		</event>
+		<property name="all"/>
+	</log>
+</config>

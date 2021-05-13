@@ -5,9 +5,9 @@
         <event>
             <eq property="Name" value="EXCP"/>
         </event>
-		<event>
-			<eq property="name" value="EXCPCNTX"/>
-		</event>
+	<event>
+	    <eq property="name" value="EXCPCNTX"/>
+	</event>
         <event>
             <eq property="Name" value="PROC"/>
         </event>
@@ -20,12 +20,9 @@
         <event>
             <eq property="Name" value="QERR"/>
         </event>
-		<event>
-			<eq property="name" value="SCOM"/>
-		</event>
-		<event>
-			<eq property="name" value="CONN"/>
-		</event>
+	<event>
+	    <eq property="name" value="CONN"/>
+	</event>
         <property name="all"/>
 	</log>
 </config>

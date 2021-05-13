@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://v8.1c.ru/v8/tech-log">
+	<log location="D:\1cTechLogs\SCALL_Call_SDBL_DBMSSQL" history="24">
+        <event>
+            <eq property="Name" value="CALL"/>
+        </event>
+        <event>
+            <eq property="Name" value="SCALL"/>
+        </event>
+        <event>
+            <eq property="Name" value="DBPOSTGRS"/>
+        </event>
+        <event>
+            <eq property="Name" value="SDBL"/>
+        </event>
+		<property name="all"/>
+	</log> 
+</config>

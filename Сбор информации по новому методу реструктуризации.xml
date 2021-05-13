@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://v8.1c.ru/v8/tech-log">
+    <system level="error"/>
+    <system level="error" component="dmf"/>
+    <system level="trace" component="dmf" class="com._1c.dmf"/>
+    <log location="D:\1cTechLogs\Restructuring" history="1">
+        <event>
+            <eq property="name" value="SYSTEM"/>
+        </event>
+        <property name="all"/>
+    </log>
+</config>

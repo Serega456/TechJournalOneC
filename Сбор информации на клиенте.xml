@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://v8.1c.ru/v8/tech-log">
+	<dump create="false"/>
+	<log location="D:\1cTechLogs\Error" history="24">
+        <event>
+            <eq property="Name" value="EXCP"/>
+        </event>
+        <event>
+            <eq property="Name" value="VRSREQUEST"/>
+        </event>
+        <event>
+            <eq property="name" value="VRSRESPONSE"/>
+        </event>
+        <event>
+            <eq property="Name" value="QERR"/>
+        </event>
+        <property name="all"/>
+	</log>
+</config>
